@@ -1,0 +1,47 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment variables and secrets
+.env
+.env.*
+
+# MLflow tracking files
+mlruns/
+mlflow.db
+
+# Python distribution
+build/
+dist/
+*.egg-info/
+
+# Dataset files - source/license not yet verified
+data/*.csv
+
+# Model files - exclude generated model binaries
+models/*.pkl
+
+# Keep project result charts and comparison reports
+# results/ remains tracked

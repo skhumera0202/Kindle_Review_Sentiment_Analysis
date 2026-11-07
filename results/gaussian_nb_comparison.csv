@@ -1,0 +1,3 @@
+Technique,Model,Accuracy,TN,FP,FN,TP
+Bag of Words,GaussianNB,0.52,706,94,1058,542
+TF-IDF,GaussianNB,0.5841666666666666,652,148,850,750

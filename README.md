@@ -108,14 +108,31 @@ The Gaussian Naive Bayes experiments were conducted separately for the two featu
 - TF-IDF performed better than Bag of Words in the Gaussian Naive Bayes experiment.
 - Different feature extraction techniques and algorithms produced different classification results.
 
+
 ## Visualizations
 
-The following visualizations were generated:
+### 1. Logistic Regression Confusion Matrix
 
-- `confusion_matrix.png` — Logistic Regression confusion matrix.
-- `confusion_matrix_comparison.png` — Comparison of TF-IDF model confusion matrices.
-- `gaussian_nb_confusion_matrices.png` — Gaussian Naive Bayes confusion matrix comparison.
-- `model_comparison.png` — Comparison of TF-IDF-based machine learning models.
+![Logistic Regression Confusion Matrix](results/confusion_matrix.png)
+
+### 2. Model Confusion Matrix Comparison
+
+![Model Confusion Matrix Comparison](results/confusion_matrix_comparison.png)
+
+### 3. Gaussian Naive Bayes Confusion Matrices
+
+![Gaussian Naive Bayes Confusion Matrices](results/gaussian_nb_confusion_matrices.png)
+
+### 4. Machine Learning Model Comparison
+
+![Machine Learning Model Comparison](results/model_comparison.png)
+
+### Model Comparison Results
+
+Detailed model comparison results are available in:
+- `results/model_comparison.csv`
+- `results/gaussian_nb_comparison.csv`
+
 
 ## Project Structure
 
